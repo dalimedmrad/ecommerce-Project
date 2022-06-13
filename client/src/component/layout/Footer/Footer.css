@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&family=Shippori+Mincho+B1:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Crimson+Pro:ital,wght@1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@1,200&display=swap");
+footer {
+  margin-top: 10vmax;
+  padding: 2vmax;
+  background: rgb(215, 238, 241);
+  background: linear-gradient(
+    90deg,
+    rgba(215, 238, 241, 1) 0%,
+    rgba(231, 244, 246, 1) 100%
+  );
+  color: rgb(155, 91, 9);
+  display: flex;
+  align-items: center;
+}
+
+.leftFooter {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.leftFooter > h4 {
+  font: 300 2.3vmax "Shippori Mincho B1", serif;
+  font-size: 1.5vmax;
+}
+.leftFooter > p {
+  text-align: center;
+  font-size: 1.2vmax;
+  font: 150 1.5vmax "Crimson Pro", serif;
+}
+.leftFooter > img {
+  width: 10vmax;
+  margin: 2vmax;
+  cursor: pointer;
+}
+
+.midFooter {
+  width: 60%;
+
+  text-align: center;
+}
+
+.midFooter > h1 {
+  font: 500 3vmax "Shippori Mincho B1", serif;
+  color: rgb(155, 91, 9);
+}
+.midFooter > h2 {
+  font: 300 2.3vmax "Shippori Mincho B1", serif;
+}
+.midFooter > p {
+  max-width: 60%;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  margin: 1vmax auto;
+}
+
+.rightFooter {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rightFooter > h4 {
+  font-family: "Roboto";
+  font-size: 1.4vmax;
+}
+.rightFooter > a {
+  text-decoration: none;
+  font-size: 1.3vmax;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  color: rgb(155, 91, 9);
+  transition: all 0.5s;
+  margin: 0.5vmax;
+}
+
+.rightFooter > a:hover {
+  color: #eb4034;
+}
+.partners {
+  width: 6vmax;
+  margin: 1vmax;
+}
+.social {
+  width: 2.5vmax;
+  margin: 1vmax;
+  cursor: pointer;
+}
